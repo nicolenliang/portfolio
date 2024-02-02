@@ -1,4 +1,4 @@
-export const works = [
+export const designs = [
     {
         id: 1,
         title: 'UI/UX Design',
@@ -16,7 +16,7 @@ export const works = [
         title: 'Film Photography',
         date: '2022 - now',
         imgUrl: '/../../public/temp3.jpg',
-    }
+    },
     {
         id: 4,
         title: 'Asian American Student Union',
