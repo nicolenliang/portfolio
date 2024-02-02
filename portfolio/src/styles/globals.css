@@ -90,22 +90,22 @@ a:hover {
   display: inline-block;
   border: 1px solid var(--primary-color);
 }
-.hero-container .hero-bio {
+.hero-container .hero-text {
   justify-content: center;
   align-content: center;
   display: flex;
   flex-direction: column;
 }
-.hero-container .hero-bio h3 {
+.hero-container .hero-text h3 {
   font-style: italic;
   font-size: 48px;
 }
-.hero-container .hero-bio h1 {
+.hero-container .hero-text h1 {
   color: var(--secondary-color);
   font-size: 128px;
   letter-spacing: -5%;
 }
-.hero-container .hero-bio p {
+.hero-container .hero-text p {
   text-align: center;
   width: 463px;
 }
