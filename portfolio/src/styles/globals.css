@@ -96,6 +96,9 @@ a:hover {
   display: flex;
   flex-direction: column;
 }
+.hero-container hr {
+  width: 60px;
+}
 .hero-container .hero-text h3 {
   font-style: italic;
   font-size: 48px;
@@ -108,4 +111,69 @@ a:hover {
 .hero-container .hero-text p {
   text-align: center;
   width: 463px;
+}
+
+/* Design Projects */
+.designs-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 80px;
+  padding-top: 100px;
+  padding-bottom: 160px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.design-card {
+  display: flex;
+  justify-content: start;
+}
+.design-card Image {
+  width: 100%;
+  border: 1px solid var(--primary-color);
+}
+.design-card Image:hover {
+  border: 1px solid var(--secondary-color);
+  color: var(--bg-color);
+  opacity: 85%;
+  box-shadow: 5px 5px 10px var(--primary-color);
+}
+.design-card p {
+  color: var(--primary-color);
+  font-size: 20px;
+  font-style: italics;
+}
+
+/* Contact */
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 30%;
+}
+.contact-container hr {
+  width: 60px;
+}
+.contact-container h2 {
+  font-size: 48px;
+  font-weight: 400;
+  font-style: italic;
+}
+.contact-container contact-column {
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+  gap: 100px;
+  width: 210px;
+}
+.contact-container contact-column a {
+  font-size: 25px;
+  font-weight: 400;
+  color: var(--primary-color);
+}
+.contact-container contact-column a:hover {
+  color: var(--secondary-color);
+  font-style: italic;
+  border-bottom: 1px solid var(--secondary-color);
 }
