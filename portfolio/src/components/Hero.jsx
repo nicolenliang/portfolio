@@ -9,7 +9,7 @@ const Hero = () => {
             width={488}
             height={631}
             alt="Nicole in New York"/>
-        <div className="hero-bio">
+        <div className="hero-text">
             <div>
                 <h3 className="intro-title">Hi, I'm</h3>
                 <h1 class="intro-name">Nicole Liang</h1>
