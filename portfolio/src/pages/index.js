@@ -1,6 +1,7 @@
 import Hero from '@/components/Hero';
 import Designs from '@/components/Designs';
 import Contact from '@/components/Contact';
+import More from '@/components/More';
 
 import Head from 'next/head';
 
@@ -15,8 +16,9 @@ export default function Home() {
       </Head>
       <div>
         <Hero />
+        <Designs />
+        <More />
         <Contact />
-        <p>TEST</p>
       </div>
     </>
   );
