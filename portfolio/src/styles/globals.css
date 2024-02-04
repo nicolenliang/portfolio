@@ -1,15 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,500;1,500&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap');
 
 :root {
-  --font-family: "Baskervville", serif;
+  --secondary-font: "Jost", sans-serif;
   --normal-font: 400;
   --bold-font: 700;
   --primary-text: 16px;
-  --heading-text: 96px;
-  --subheading-text: 32px;
+  --heading-text: 128px;
+  --subheading-text: 28px;
   --bg-color: #e6e5e2;
   --primary-color: #5c554b;
   --secondary-color: #eb5228;
@@ -29,7 +29,6 @@ html {
 }
 body {
   color: var(--primary-color);
-  font-family: var(--font-family);
   font-size: var(--primary-text);
   font-weight: 400;
   letter-spacing: -5%;
@@ -93,52 +92,62 @@ a:hover {
 
 /* Hero */
 .hero-container {
+  display: flex;
   align-items: center;
-  display: flex;
-  justify-content: space-between;
-}
-.hero-container .profile {
-  border: 1px solid var(--primary-color);
-  margin-right: 13rem;
-}
-.hero-container .profile::before {
-  content: "";
-  position: absolute;
-  top: 5rem;
-  left: -5%;
-  height: 75%;
-  width: 125%;
-  border: 1px solid var(--secondary-color);
-  z-index: -1;
-}
-.hero-container .hero-text {
-  justify-content: center;
-  align-content: center;
-  display: flex;
+  justify-items: center;
   flex-direction: column;
   padding: 0.5rem;
-  margin-right: 10%;
+  margin: 5rem;
 }
-.hero-container .hero-text hr {
-  align-self: center;
-  border: 0.5px solid var(--primary-color);
-  margin: 3rem;
-  width: 60px;
+.hero-container .hero-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-content: center;
 }
-.hero-container .hero-text h3 {
+.hero-container .hero-name h3 {
+  font-family: var(--secondary-font);
   font-style: italic;
   font-size: var(--subheading-text);
+  font-weight: 500;
   margin-bottom: -2rem;
 }
-.hero-container .hero-text h1 {
+.hero-container .hero-name h1 {
   color: var(--secondary-color);
   font-size: var(--heading-text);
-  letter-spacing: -5%;
+  letter-spacing: -5px;
 }
-.hero-container .hero-text p {
-  align-self: center;
-  text-align: center;
-  width: 26rem;
+.hero-container .under-name {
+  border: 1px solid var(--tertiary-color);
+  width: 670px;
+  margin-top: -2rem;
+  margin-right: 13rem;
+}
+.hero-container .hero-roles {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+.hero-container .hero-roles p {
+  font-size: var(--subheading-text);
+}
+.hero-container hr {
+  border: 0.5px solid var(--primary-color);
+  width: 60px;
+  margin: 2rem;
+}
+.hero-container h4 {
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+.hero-container .desc {
+  font-family: 'Jost', sans-serif;
+  font-weight: 500;
+}
+.hero-container .quip {
+  font-family: var(--secondary-font);
+  font-weight: 500;
+  font-size: 12px;
 }
 
 /* Design Projects */
