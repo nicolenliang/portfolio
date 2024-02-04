@@ -1,7 +1,6 @@
 import Hero from '@/components/Hero';
 import Designs from '@/components/Designs';
 import Contact from '@/components/Contact';
-import More from '@/components/More';
 
 import Head from 'next/head';
 
@@ -17,7 +16,6 @@ export default function Home() {
       <div>
         <Hero />
         <Designs />
-        <More />
         <Contact />
       </div>
     </>
