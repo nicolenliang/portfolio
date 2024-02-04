@@ -138,10 +138,10 @@ a:hover {
 }
 .hero-container h4 {
   font-style: italic;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 .hero-container .desc {
-  font-family: 'Jost', sans-serif;
+  font-family: var(--secondary-font);
   font-weight: 500;
 }
 .hero-container .quip {
@@ -158,6 +158,8 @@ a:hover {
   margin: 10rem;
   margin-left: 5.5rem;
   margin-right: 5.5rem;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
 }
 .designs-container .left-column {
   display: flex;
