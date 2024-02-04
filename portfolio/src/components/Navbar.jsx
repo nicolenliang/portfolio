@@ -15,10 +15,10 @@ const Navbar = () => {
                 </Link>
             </div>
             <div className="links">
-                <a href="#design" className="nav-link">design</a>
+                <a href="/#design" className="nav-link">design</a>
                 <a href="/code" className="nav-link">code</a>
                 <a href="/about" className="nav-link">about</a>
-                <a href="#contact" className="nav-link">contact</a>
+                <a href="https://docs.google.com/document/d/135y-QE1FMqfJH1lYWlytwadCPVgaNV6iHxpt6Y85Peg/edit?usp=sharing" target="_blank" rel="noreferrer noopener" className="nav-link">resume</a>
             </div>
         </div>
     )
