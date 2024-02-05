@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { designData } from './designdata.js';
+import { designData } from './component_data/designdata.js';
 
 const Designs = () => {
     var half = Math.ceil(designData.length / 2);
