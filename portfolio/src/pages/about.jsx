@@ -1,11 +1,13 @@
-import Image from 'next/image';
 import Contact from '@/components/Contact';
 import AboutImages from '@/components/AboutImages';
+import AboutExperience from '@/components/AboutExperience';
+import { experienceData } from '@/components/component_data/experienceData';
+
 
 const About = () => {
     return (
-        <>
-            <div className="about-container">
+        <div className="about-container">
+            <div className="about-intro">
                 <div className="about-img">
                     <AboutImages />
                 </div>
@@ -27,27 +29,14 @@ const About = () => {
                     Don’t hesitate to say hi back -- I’d love to chat!
                     </p>
                 </div>
-                <div className="about-experience">
-                    <div className="exp-title">
-                        <ul>
-
-                        </ul>
-                    </div>
-                    <div className="exp-list">
-                        <ul>
-
-                        </ul>
-                        <ul>
-
-                        </ul>
-                        <ul>
-
-                        </ul>
-                    </div>
-                </div>
+            </div>
+            <div className="about-experience">
+                {experienceData && experienceData.map((item) => (
+                    <AboutExperience item={item} />
+                ))}
             </div>
             <Contact />
-        </>
+        </div>
     )
 }
 
