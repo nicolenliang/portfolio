@@ -31,7 +31,7 @@ const About = () => {
                 </div>
             </div>
             <div className="about-experience">
-                {experienceData && experienceData.map((item) => (
+                {experienceData.map((item) => (
                     <AboutExperience item={item} />
                 ))}
             </div>

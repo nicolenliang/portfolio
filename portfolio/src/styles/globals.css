@@ -44,6 +44,7 @@ a:hover {
   border-bottom: 1px solid var(--secondary-color);
 }
 
+
 /* Navbar */
 .nav-container {
   display: flex;
@@ -66,6 +67,7 @@ a:hover {
   font-style: italic;
   border-bottom: 1px solid var(--secondary-color);
 }
+
 
 /* Footer */
 .footer-container {
@@ -90,6 +92,7 @@ a:hover {
   border-bottom: 1px solid var(--primary-color);
   cursor: pointer;
 }
+
 
 /* Hero */
 .hero-container {
@@ -151,6 +154,7 @@ a:hover {
   font-size: 12px;
 }
 
+
 /* Design Projects */
 .designs-container {
   display: flex;
@@ -196,6 +200,7 @@ a:hover {
   margin-top: 7px;
 }
 
+
 /* More Bar */
 .more-container {
   display: flex;
@@ -213,6 +218,7 @@ a:hover {
   font-style: italic;
   border-bottom: 1px solid var(--bg-color);
 }
+
 
 /* Contact */
 .contact-container {
@@ -254,6 +260,7 @@ a:hover {
   border-bottom: 1px solid var(--secondary-color);
 }
 
+
 /* About Images */
 .about-images {
   display: grid;
@@ -273,7 +280,6 @@ a:hover {
   border: 1px solid var(--primary-color);
   margin-left: 14%;
 }
-
 /* About Experiences Item */
 .exp-container {
   display: flex;
@@ -307,7 +313,6 @@ a:hover {
   line-height: 2.5rem;
   letter-spacing: 0.5px;
 }
-
 /* About Page */
 .about-container {
   display: flex;
@@ -361,3 +366,6 @@ a:hover {
   padding: 100px;
   gap: 7rem;
 }
+
+
+/* */

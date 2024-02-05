@@ -8,7 +8,7 @@ const AboutExperience = ( {item} ) => {
                 <hr />
             </div>
             <div className="exp-list">
-                {expData && expData.map((exp) => (
+                {expData.map((exp) => (
                     <p>{exp}</p>
                 ))}
             </div>

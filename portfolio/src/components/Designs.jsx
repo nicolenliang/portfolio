@@ -9,7 +9,7 @@ const Designs = () => {
     return (
         <div className="designs-container" id="design">
             <div className="left-column">
-                {designData && leftCol.map((project) => (
+                {leftCol.map((project) => (
                     <div className="design-card" key={project.id}>
                         <Image className="design-image"
                         src={project.imgUrl}
@@ -21,7 +21,7 @@ const Designs = () => {
                 ))}
             </div>
             <div className="right-column">
-                {designData && rightCol.map((project) => (
+                {rightCol.map((project) => (
                     <div className="design-card" key={project.id}>
                         <Image className="design-image"
                         src={project.imgUrl}

@@ -1,4 +1,4 @@
-import "@/styles/globals.css";
+import '@/styles/globals.css';
 import Layout from '../components/Layout';
 import { Baskervville } from 'next/font/google';
 
