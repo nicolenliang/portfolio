@@ -254,3 +254,67 @@ a:hover {
   font-style: italic;
   border-bottom: 1px solid var(--secondary-color);
 }
+
+/* About Images */
+.about-images {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  position: relative;
+}
+.about-images .ny-img {
+  grid-column: 1 / span 100;
+  grid-row: 1;
+  border: 1px solid var(--primary-color);
+  margin-bottom: -25%;
+  margin-left: -10%;
+}
+.about-images .jp-img {
+  grid-column: -1;
+  z-index: 1;
+  border: 1px solid var(--primary-color);
+  margin-left: 14%;
+}
+
+/* About Page */
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10rem;
+  margin-top: 7rem;
+  margin-left: 11rem;
+}
+.about-container .about-img {
+  width: 100%;
+  height: 100%;
+  margin-right: 10rem;
+  position: relative;
+}
+.about-img::before {
+  content: "";
+  width: 100%;
+  height: 74%;
+  top: 13%;
+  position: absolute;
+  border: 1px solid var(--primary-color);
+}
+.about-container .about-text {
+  display: flex;
+  justify-items: end;
+  flex-direction: column; 
+  max-width: 450px;
+}
+.about-text p {
+  font-family: var(--secondary-font);
+}
+.about-text .hi-again {
+  font-size: var(--subheading-text);
+  font-style: italic;
+  margin-bottom: -8px;
+}
+.about-text h3 {
+  font-size: 48px;
+  font-style: italic;
+  color: var(--secondary-color);
+  margin-bottom: 2rem;
+}
