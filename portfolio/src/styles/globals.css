@@ -155,11 +155,9 @@ a:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 10rem;
   margin-left: 5.5rem;
   margin-right: 5.5rem;
   padding-top: 7rem;
-  padding-bottom: 7rem;
 }
 .designs-container .left-column {
   display: flex;
@@ -221,7 +219,7 @@ a:hover {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 8.5rem;
+  margin: 12rem;
 }
 .contact-container hr {
   border: 0.5px solid var(--primary-color);
