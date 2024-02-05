@@ -7,9 +7,10 @@
   --secondary-font: "Jost", sans-serif;
   --normal-font: 400;
   --bold-font: 700;
-  --primary-text: 16px;
+  --primary-text: 18px;
   --heading-text: 128px;
-  --subheading-text: 28px;
+  --subheading-text: 48px;
+  --subtitle-text: 28px;
   --bg-color: #e6e5e2;
   --primary-color: #5c554b;
   --secondary-color: #eb5228;
@@ -108,7 +109,7 @@ a:hover {
 .hero-container .hero-name h3 {
   font-family: var(--secondary-font);
   font-style: italic;
-  font-size: var(--subheading-text);
+  font-size: var(--subtitle-text);
   font-weight: 500;
   margin-bottom: -2rem;
 }
@@ -129,7 +130,7 @@ a:hover {
   margin-top: 2rem;
 }
 .hero-container .hero-roles p {
-  font-size: var(--subheading-text);
+  font-size: var(--subtitle-text);
 }
 .hero-container hr {
   border: 0.5px solid var(--primary-color);
@@ -227,7 +228,7 @@ a:hover {
   width: 60px;
 }
 .contact-container h2 {
-  font-size: var(--subheading-text);
+  font-size: var(--subtitle-text);
   font-style: italic;
 }
 .contact-container .contact-items {
@@ -273,16 +274,53 @@ a:hover {
   margin-left: 14%;
 }
 
+/* About Experiences Item */
+.exp-container {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+.exp-container .exp-title {
+  display: flex;
+  flex-direction: column;
+}
+.exp-title h3 {
+  color: var(--bg-color);
+  font-size: var(--subheading-text);
+  font-style: italic;
+}
+.exp-title hr {
+  color: var(--bg-color);
+  width: 100%;
+  margin-left: 30px;
+}
+.exp-container .exp-list {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 500px;
+  margin-top: 30px;
+}
+.exp-container p {
+  color: var(--bg-color);
+  font-family: var(--secondary-font);
+  line-height: 2.5rem;
+  letter-spacing: 0.5px;
+}
+
 /* About Page */
 .about-container {
+  display: flex;
+  flex-direction: column;
+}
+.about-container .about-intro {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 10rem;
-  margin-top: 7rem;
-  margin-left: 11rem;
+  margin-top: 5rem;
 }
-.about-container .about-img {
+.about-intro .about-img {
   width: 100%;
   height: 100%;
   margin-right: 10rem;
@@ -296,7 +334,7 @@ a:hover {
   position: absolute;
   border: 1px solid var(--primary-color);
 }
-.about-container .about-text {
+.about-intro .about-text {
   display: flex;
   justify-items: end;
   flex-direction: column; 
@@ -306,13 +344,20 @@ a:hover {
   font-family: var(--secondary-font);
 }
 .about-text .hi-again {
-  font-size: var(--subheading-text);
+  font-size: var(--subtitle-text);
   font-style: italic;
   margin-bottom: -8px;
 }
 .about-text h3 {
-  font-size: 48px;
+  font-size: var(--subheading-text);
   font-style: italic;
   color: var(--secondary-color);
   margin-bottom: 2rem;
+}
+.about-experience {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--secondary-color);
+  padding: 100px;
+  gap: 7rem;
 }
