@@ -1,6 +1,16 @@
-import Link from "next/link";
-import Image from "next/image";
-import Logo from "../../public/logo.png";
+import Link from 'next/link';
+import Image from 'next/image';
+import Logo from '../../public/logo.png';
+
+const resumes = () => {
+    <>
+        <label for="resumes">resume</label>
+        <select name="resumes">
+            <option value="design">design</option>
+            <option value="software">software</option>
+        </select>
+    </>
+}
 
 const Navbar = () => {
     return (
@@ -15,10 +25,10 @@ const Navbar = () => {
                 </Link>
             </div>
             <div className="links">
-                <a href="/#design" className="nav-link">design</a>
-                <a href="/code" className="nav-link">code</a>
-                <a href="/about" className="nav-link">about</a>
-                <a href="https://docs.google.com/document/d/135y-QE1FMqfJH1lYWlytwadCPVgaNV6iHxpt6Y85Peg/edit?usp=sharing" target="_blank" rel="noreferrer noopener" className="nav-link">resume</a>
+                <Link href="/#design" className="nav-link">design</Link>
+                <Link href="/code" className="nav-link">code</Link>
+                <Link href="/about" className="nav-link">about</Link>
+                <Link href="https://docs.google.com/document/d/135y-QE1FMqfJH1lYWlytwadCPVgaNV6iHxpt6Y85Peg/edit?usp=sharing" target="_blank" rel="noreferrer noopener" className="nav-link">resume</Link>
             </div>
         </div>
     )

@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 const Hero = () => {
     return (
         <div className="hero-container">
@@ -7,9 +9,9 @@ const Hero = () => {
             </div>
             <hr className="under-name"></hr>
             <div className="hero-roles">
-                <p><a href="#design">designer</a></p>
+                <p><Link href="#design">designer</Link></p>
                 &nbsp;&nbsp; <p>and</p> &nbsp;&nbsp;
-                <p><a href="/code">software engineer</a></p>
+                <p><Link href="/code">software engineer</Link></p>
             </div>
             <hr />
             <h4>driven by</h4>
