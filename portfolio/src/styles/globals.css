@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;1,400;1,500&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -10,7 +10,7 @@
   --primary-text: 18px;
   --heading-text: 128px;
   --subheading-text: 48px;
-  --subtitle-text: 28px;
+  --subtitle-text: 32px;
   --bg-color: #e6e5e2;
   --primary-color: #5c554b;
   --secondary-color: #eb5228;
@@ -132,13 +132,16 @@ a:hover {
   flex-direction: row;
   margin-top: 2rem;
 }
+.hero-container .and {
+  font-style: italic;
+}
 .hero-container .hero-roles p {
   font-size: var(--subtitle-text);
 }
 .hero-container hr {
   border: 0.5px solid var(--primary-color);
   width: 60px;
-  margin: 2rem;
+  margin: 1.5rem;
 }
 .hero-container h4 {
   font-style: italic;
@@ -156,7 +159,7 @@ a:hover {
 
 
 /* Design Projects */
-.designs-container {
+.project-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -164,36 +167,36 @@ a:hover {
   margin-right: 5.5rem;
   padding-top: 7rem;
 }
-.designs-container .left-column {
+.project-container .left-column {
   display: flex;
   flex-direction: column;
   max-width: 75%;
   gap: 55px;
 }
-.designs-container .right-column {
+.project-container .right-column {
   display: flex;
   flex-direction: column;
   max-width: 75%;
   margin-top: 5rem;
   gap: 55px;
 }
-.designs-container .design-card {
+.project-container .project-card {
   display: flex;
   justify-content: start;
   align-content: start;
   flex-direction: column;
 }
-.design-card .design-image {
+.project-card .project-image {
   width: 100%;
   border: 1px solid var(--primary-color);
 }
-.design-card .design-image:hover {
+.project-card .project-image:hover {
   border: 1px solid var(--secondary-color);
   color: var(--bg-color);
   opacity: 85%;
   box-shadow: 5px 5px 10px var(--primary-color);
 }
-.designs-container .design-card p {
+.project-container .project-card p {
   color: var(--primary-color);
   font-size: var(--primary-text);
   font-style: italic;
@@ -226,7 +229,7 @@ a:hover {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 12rem;
+  margin: 11rem;
 }
 .contact-container hr {
   border: 0.5px solid var(--primary-color);
@@ -234,7 +237,7 @@ a:hover {
   width: 60px;
 }
 .contact-container h2 {
-  font-size: var(--subtitle-text);
+  font-size: var(--subheading-text);
   font-style: italic;
 }
 .contact-container .contact-items {
@@ -351,12 +354,14 @@ a:hover {
 .about-text .hi-again {
   font-size: var(--subtitle-text);
   font-style: italic;
+  font-weight: 500;
   margin-bottom: -8px;
 }
 .about-text h3 {
   font-size: var(--subheading-text);
   font-style: italic;
   color: var(--secondary-color);
+  letter-spacing: -2px;
   margin-bottom: 2rem;
 }
 .about-experience {

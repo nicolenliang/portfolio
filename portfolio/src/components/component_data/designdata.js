@@ -26,13 +26,13 @@ export const designData = [
     {
         id: 5,
         title: 'Society of Asian Scientists and Engineers',
-        date: '2021-22',
+        date: '2021 - 22',
         imgUrl: '/temp5.jpg',
     },
     {
         id: 6,
         title: 'Chinese American Student Association',
-        date: '2020-21',
+        date: '2020 - 21',
         imgUrl: '/temp6.jpg',
     },
     {

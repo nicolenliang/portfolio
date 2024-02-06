@@ -10,7 +10,7 @@ const Hero = () => {
             <hr className="under-name"></hr>
             <div className="hero-roles">
                 <p><Link href="#design">designer</Link></p>
-                &nbsp;&nbsp; <p>and</p> &nbsp;&nbsp;
+                &nbsp;&nbsp; <p className="and">and</p> &nbsp;&nbsp;
                 <p><Link href="/code">software engineer</Link></p>
             </div>
             <hr />

@@ -1,5 +1,5 @@
 const AboutExperience = ( {item} ) => {
-    const expData = item.exp;
+    var expData = item.exp;
 
     return (
         <div className="exp-container">
