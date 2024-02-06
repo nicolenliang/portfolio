@@ -1,6 +1,7 @@
 import Hero from '@/components/Hero';
-import Designs from '@/components/Designs';
+import Projects from '@/components/Projects';
 import Contact from '@/components/Contact';
+import { designData } from '@/components/component_data/designData';
 
 import Head from 'next/head';
 
@@ -15,7 +16,7 @@ export default function Home() {
       </Head>
       <div>
         <Hero />
-        <Designs />
+        <Projects data={designData} />
         <Contact />
       </div>
     </>
