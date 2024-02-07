@@ -1,12 +1,12 @@
 import Image from 'next/image';
 
-const Designs = ( {data} ) => {
+const Projects = ( {data} ) => {
     var half = Math.ceil(data.length / 2);
     var leftCol = data.slice(0, half);
     var rightCol = data.slice(half);
 
     return (
-        <div className="project-container" id="design">
+        <div className="project-container">
             <div className="left-column">
                 {leftCol.map((project) => (
                     <div className="project-card" key={project.id}>
@@ -35,4 +35,4 @@ const Designs = ( {data} ) => {
     )
 };
 
-export default Designs;
+export default Projects;
