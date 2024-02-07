@@ -7,6 +7,12 @@ export const codeData = [
     },
     {
         id: 2,
+        title: 'Facebook Marketplace - Live Shopping',
+        date: '2022',
+        imgUrl: '/temp6.jpg',
+    },
+    {
+        id: 2,
         title: 's2udy',
         date: '2021',
         imgUrl: '/temp2.jpg',
@@ -28,11 +34,5 @@ export const codeData = [
         title: 'Rotten Tomatoes Clone',
         date: '2021',
         imgUrl: '/temp5.jpg',
-    },
-    {
-        id: 6,
-        title: 'INVERT(squared)',
-        date: '2020',
-        imgUrl: '/temp6.jpg',
     },
 ];
