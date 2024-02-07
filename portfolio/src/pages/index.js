@@ -1,7 +1,8 @@
 import Hero from '@/components/Hero';
 import Projects from '@/components/Projects';
+import More from '@/components/More';
 import Contact from '@/components/Contact';
-import { designData } from '@/components/component_data/designData';
+import { featureData } from '@/components/component_data/featureData';
 
 import Head from 'next/head';
 
@@ -16,7 +17,8 @@ export default function Home() {
       </Head>
       <div>
         <Hero />
-        <Projects data={designData} />
+        <Projects data={featureData} />
+        <More />
         <Contact />
       </div>
     </>
