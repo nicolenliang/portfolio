@@ -163,8 +163,7 @@ a:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-left: 5.5rem;
-  margin-right: 5.5rem;
+  margin: 0 5.5rem;
   padding-top: 7rem;
 }
 .project-container .left-column {
@@ -193,7 +192,7 @@ a:hover {
 .project-card .project-image:hover {
   border: 1px solid var(--secondary-color);
   color: var(--bg-color);
-  opacity: 85%;
+  opacity: 50%;
   box-shadow: 5px 5px 10px var(--primary-color);
 }
 .project-container .project-card p {
@@ -207,19 +206,19 @@ a:hover {
 /* More Bar */
 .more-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: end;
   align-items: center;
   background-color: var(--secondary-color);
   height: 65px;
-  padding-left: 35rem;
-  padding-right: 35rem;
+  padding-right: 5.5rem;
+  margin: 7rem 0;
 }
 .more-container a {
   color: var(--bg-color);
+  border-bottom: 1px solid var(--bg-color);
 }
 .more-container a:hover {
   font-style: italic;
-  border-bottom: 1px solid var(--bg-color);
 }
 
 
@@ -373,4 +372,45 @@ a:hover {
 }
 
 
-/* */
+/* Works Page */
+.work-container {
+  display: flex;
+  flex-direction: column;
+}
+.work-container .work-header {
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+  padding: 0 10rem;
+  margin-top: 5rem;
+}
+.work-header h1 {
+  color: var(--secondary-color);
+  font-size: var(--heading-text);
+  font-style: italic;
+  letter-spacing: -5px;
+}
+.work-header hr {
+  border: 1px solid var(--tertiary-color);
+  width: 100%;
+  margin-left: 60px;
+}
+.work-header .work-meta {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+  margin-left: -5px;
+  width: 105%;
+}
+.work-meta p {
+  font-family: var(--secondary-font);
+  font-weight: 500;
+}
+.work-meta .work-filters {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 60px;
+}
