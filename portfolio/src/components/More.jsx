@@ -1,8 +1,9 @@
+import Link from 'next/link';
+
 const More = () => {
     return (
         <div className="more-container">
-            <a href="/code">code</a>
-            <a href="/about">about</a>
+            <Link href="/work">see all work &rarr;</Link>
         </div>
     )
 }
