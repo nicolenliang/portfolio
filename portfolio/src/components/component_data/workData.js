@@ -1,0 +1,86 @@
+export const workData = [
+    {
+        id: 1,
+        title: 'InSync',
+        date: '2022 - 23',
+        imgUrl: '/temp1.jpg',
+    },
+    {
+        id: 2,
+        title: 'Facebook Marketplace - Live Shopping',
+        date: '2022',
+        imgUrl: '/temp6.jpg',
+    },
+    {
+        id: 3,
+        title: 's2udy',
+        date: '2021',
+        imgUrl: '/temp2.jpg',
+    },
+    {
+        id: 4,
+        title: 'Instagram Clone',
+        date: '2021',
+        imgUrl: '/temp3.jpg',
+    },
+    {
+        id: 5,
+        title: 'Twitter Clone',
+        date: '2021',
+        imgUrl: '/temp4.jpg',
+    },
+    {
+        id: 6,
+        title: 'Rotten Tomatoes Clone',
+        date: '2021',
+        imgUrl: '/temp5.jpg',
+    },
+    {
+        id: 7,
+        title: 'UI/UX Design',
+        date: '2020 - 23',
+        imgUrl: '/temp1.jpg',
+    },
+    {
+        id: 8,
+        title: 'Type & Branding',
+        date: '2020 - 23',
+        imgUrl: '/temp2.jpg',
+    },
+    {
+        id: 9,
+        title: 'Film Photography',
+        date: '2022 - now',
+        imgUrl: '/temp3.jpg',
+    },
+    {
+        id: 10,
+        title: 'Asian American Student Union',
+        date: '2021 - 23',
+        imgUrl: '/temp4.jpg',
+    },
+    {
+        id: 11,
+        title: 'Society of Asian Scientists and Engineers',
+        date: '2021 - 22',
+        imgUrl: '/temp5.jpg',
+    },
+    {
+        id: 12,
+        title: 'Chinese American Student Association',
+        date: '2020 - 21',
+        imgUrl: '/temp6.jpg',
+    },
+    {
+        id: 13,
+        title: 'University of Florida',
+        date: '2022 - 23',
+        imgUrl: '/temp7.jpg',
+    },
+    {
+        id: 14,
+        title: 'Illustration',
+        date: '2017 - now',
+        imgUrl: '/temp8.jpg',
+    },
+];
