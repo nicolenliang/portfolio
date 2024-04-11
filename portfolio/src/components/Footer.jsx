@@ -2,10 +2,18 @@ import Image from 'next/image';
 import Logo from '../../public/logo.png';
 
 const Footer = () => {
+    const isBrowser = () => 
+        typeof window !== "undefined";
+
+    function scrollToTop() {
+        if (!isBrowser()) return;
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
     return (
         <>
             <div className="footer-container">
-                <p id="back-to-top">back to top</p>
+                <button className="back-to-top" onClick={scrollToTop}>back to top</button>
                 <Image className="logo"
                     src={Logo}
                     width={160}
