@@ -9,9 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "fs": "^0.0.1-security",
+    "next": "14.1.0",
+    "prop-types": "^15.8.1",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.1.0"
+    "react-layout-masonry": "^1.1.0",
+    "react-responsive-masonry": "^2.1.7"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
