@@ -9,13 +9,13 @@ export const featureData = [
         id: 2,
         title: 'Type & Branding',
         date: '2023',
-        imgUrl: '/temp2.jpg',
+        imgUrl: '/temp3.jpg',
     },
     {
         id: 3,
         title: 'Facebook Marketplace',
         date: '2022',
-        imgUrl: '/temp3.jpg',
+        imgUrl: '/temp2.jpg',
     },
     {
         id: 4,
