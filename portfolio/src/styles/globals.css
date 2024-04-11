@@ -1,14 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;1,400;1,500&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
+  --primary-font: "Baskervville", serif;
   --secondary-font: "Jost", sans-serif;
   --normal-font: 400;
   --bold-font: 700;
   --primary-text: 18px;
   --heading-text: 128px;
+  --title-text: 96px;
   --subheading-text: 48px;
   --subtitle-text: 32px;
   --bg-color: #e6e5e2;
@@ -25,6 +28,7 @@
   box-sizing: border-box;
 }
 html {
+  font-family: var(--primary-font);
   background-color: var(--bg-color);
   scroll-behavior: smooth;
 }
@@ -62,12 +66,9 @@ a:hover {
   justify-content: space-evenly;
   gap: 60px;
 }
-.links .nav-link:active, .nav-link:focus {
-  color: var(--secondary-color);
-  font-style: italic;
-  border-bottom: 1px solid var(--secondary-color);
+.links .nav-link {
+  cursor: pointer;
 }
-
 
 /* Footer */
 .footer-container {
@@ -88,9 +89,13 @@ a:hover {
   font-size: 14px;
   font-style: italic;
 }
-#back-to-top {
+.footer-container .back-to-top {
+  font-size: 14px;
+  font-style: normal;
+}
+.footer-container .back-to-top:hover {
+  font-style: italic;
   border-bottom: 1px solid var(--primary-color);
-  cursor: pointer;
 }
 
 
@@ -100,8 +105,8 @@ a:hover {
   align-items: center;
   justify-items: center;
   flex-direction: column;
-  padding: 0.5rem;
-  margin: 5rem;
+  padding: 0.5%;
+  margin: 5%;
 }
 .hero-container .hero-name {
   display: flex;
@@ -124,8 +129,8 @@ a:hover {
 .hero-container .under-name {
   border: 1px solid var(--tertiary-color);
   width: 670px;
-  margin-top: -2rem;
-  margin-right: 13rem;
+  margin-top: -2%;
+  margin-right: 13%;
 }
 .hero-container .hero-roles {
   display: flex;
@@ -160,12 +165,9 @@ a:hover {
 
 /* Design Projects */
 .project-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 0 5.5rem;
-  padding-top: 7rem;
+  margin: 7rem 5rem 0;
 }
+/* styles for self-made masonry
 .project-container .left-column {
   display: flex;
   flex-direction: column;
@@ -179,6 +181,7 @@ a:hover {
   margin-top: 5rem;
   gap: 55px;
 }
+*/
 .project-container .project-card {
   display: flex;
   justify-content: start;
@@ -222,13 +225,23 @@ a:hover {
 }
 
 
+/* Resumes Dropdown */
+.resumes-container .resumes-list {
+  line-height: 110%;
+  position: absolute;
+}
+.resumes-list .resume-link {
+  color: var(--secondary-color);
+  font-family: var(--secondary-font);
+  font-size: 14px;
+}
 /* Contact */
 .contact-container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 11rem;
+  margin: 11%;
 }
 .contact-container hr {
   border: 0.5px solid var(--primary-color);
@@ -252,14 +265,17 @@ a:hover {
   flex-direction: column;
   gap: 12px;
 }
-.contact-container .contact-column a {
+.contact-column a {
   font-size: var(--primary-text);
   color: var(--primary-color);
 }
-.contact-container .contact-column a:hover {
+.contact-column a:hover {
   color: var(--secondary-color);
   font-style: italic;
   border-bottom: 1px solid var(--secondary-color);
+}
+.contact-column .resumes {
+  cursor: pointer;
 }
 
 
@@ -269,14 +285,14 @@ a:hover {
   grid-template-columns: repeat(12, 1fr);
   position: relative;
 }
-.about-images .ny-img {
+.about-images .left-img {
   grid-column: 1 / span 100;
   grid-row: 1;
   border: 1px solid var(--primary-color);
   margin-bottom: -25%;
   margin-left: -10%;
 }
-.about-images .jp-img {
+.about-images .right-img {
   grid-column: -1;
   z-index: 1;
   border: 1px solid var(--primary-color);
@@ -307,13 +323,24 @@ a:hover {
   flex-direction: column;
   align-items: start;
   width: 500px;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 .exp-container p {
   color: var(--bg-color);
   font-family: var(--secondary-font);
   line-height: 2.5rem;
   letter-spacing: 0.5px;
+}
+@media screen and (max-width: 768px) {
+  .exp-container {
+    flex-direction: column;
+  }
+  .exp-title hr {
+    margin-left: 0;
+  }
+  .exp.container .exp-list {
+    width: 100%;
+  }
 }
 /* About Page */
 .about-container {
@@ -324,8 +351,8 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 10rem;
-  margin-top: 5rem;
+  margin: 10%;
+  margin-top: 5%;
 }
 .about-intro .about-img {
   width: 100%;
@@ -370,6 +397,11 @@ a:hover {
   padding: 100px;
   gap: 7rem;
 }
+@media screen and (max-width: 768px) {
+  .about-intro {
+    flex-direction: column;
+  }
+}
 
 
 /* Works Page */
@@ -381,8 +413,8 @@ a:hover {
   display: flex;
   justify-items: center;
   flex-direction: column;
-  padding: 0 10rem;
-  margin-top: 5rem;
+  padding: 0 10%;
+  margin: 5rem 0;
 }
 .work-header h1 {
   color: var(--secondary-color);
@@ -395,7 +427,7 @@ a:hover {
   width: 100%;
   margin-left: 60px;
 }
-.work-header .work-meta {
+.work-header .work-desc {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -404,13 +436,62 @@ a:hover {
   margin-left: -5px;
   width: 105%;
 }
-.work-meta p {
+.work-desc p {
   font-family: var(--secondary-font);
   font-weight: 500;
 }
-.work-meta .work-filters {
+.work-desc .work-filters {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  gap: 60px;
+  gap: 30px;
+}
+.work-filters button:hover {
+  color: var(--secondary-color);
+  border-bottom: 1px solid var(--secondary-color);
+  font-style: italic;
+}
+
+/* project details header */
+.title-container {
+  display: flex;
+  margin: 10rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.title-container .title-img {
+  display: contents;
+  width: 100%;
+}
+.title-container .title-text {
+  display: flex;
+  flex-direction: column;
+}
+.title-text h1 {
+  color: var(--secondary-color);
+  font-style: italic;
+  font-size: var(--title-text);
+  letter-spacing: -5px;
+  line-height: 100%;
+}
+.title-text hr {
+  border: 1px solid var(--tertiary-color);
+  margin-left: 13%;
+  width: 100%;
+}
+.title-text .title-year {
+  align-self: last baseline;
+  font-family: var(--primary-font);
+  font-style: italic;
+  font-size: 14px;
+  margin-right: -13%;
+  margin-top: 0;
+}
+.title-text p {
+  font-family: var(--secondary-font);
+  margin-top: 2rem;
+}
+
+/* film details */
+.project-title {
 }
