@@ -1,18 +1,18 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import Logo from '../../public/logo.png';
-
-const resumes = () => {
-    <>
-        <label for="resumes">resume</label>
-        <select name="resumes">
-            <option value="design">design</option>
-            <option value="software">software</option>
-        </select>
-    </>
-}
+import Resumes from './Resumes';
+import { useState } from 'react';
 
 const Navbar = () => {
+    const [isResumesVisible, setResumesVisible] = useState(false);
+    const handleMouseEnter = () => {
+        setResumesVisible(true);
+    }
+    const handleMouseLeave = () => {
+        setResumesVisible(false);
+    }
+
     return (
         <div className="nav-container">
             <div className="logo">
@@ -27,7 +27,10 @@ const Navbar = () => {
             <div className="links">
                 <Link href="/work" className="nav-link">work</Link>
                 <Link href="/about" className="nav-link">about</Link>
-                <Link href="https://docs.google.com/document/d/135y-QE1FMqfJH1lYWlytwadCPVgaNV6iHxpt6Y85Peg/edit?usp=sharing" target="_blank" rel="noreferrer noopener" className="nav-link">resume</Link>
+                <div className="nav-link" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+                    resume
+                    {isResumesVisible && <Resumes />}
+                </div>
             </div>
         </div>
     )
