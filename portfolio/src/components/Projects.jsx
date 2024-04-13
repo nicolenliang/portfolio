@@ -13,7 +13,7 @@ const ProjectCard = ( {project} ) => {
                 src={project.imgUrl}
                 width={600}
                 height={600}
-                alt="Project Card"/>
+                alt={project.title}/>
             </Link>
             <p>{project.title} // {project.date}</p>
         </div>
