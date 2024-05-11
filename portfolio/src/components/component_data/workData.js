@@ -3,7 +3,7 @@ export const workData = [
         id: 1,
         title: 'InSync',
         date: '2022 - 23',
-        imgUrl: '/temp1.jpg',
+        imgUrl: '/insync.jpg',
         type: 'code',
         shortcut: '/insync',
         desc: 'InSync is a web-based application where users can match with each other based on their music compatibility. We drew UI inspiration from Spotify, and utilized Spotify\'s API to calculate compatability scores based on your recent listening history. We used React to develop our front-end, and Firebase to store our user data.\nInspired by the multitudes of Spotify and dating apps out there, and our personal love for music and connection.',
@@ -20,6 +20,7 @@ export const workData = [
         imgUrl: '/temp6.jpg',
         type: 'code',
         shortcut: '/fbm_liveshopping',
+        desc: 'This page is still a work in progress. Check back later for more information! :)',
     },
     {
         id: 3,
@@ -28,6 +29,7 @@ export const workData = [
         imgUrl: '/temp2.jpg',
         type: 'code',
         shortcut: '/s2udy',
+        desc: 'This page is still a work in progress. Check back later for more information! :)',
     },
     {
         id: 4,
@@ -36,6 +38,7 @@ export const workData = [
         imgUrl: '/temp5.jpg',
         type: 'code',
         shortcut: 'insta_clone',
+        desc: 'This page is still a work in progress. Check back later for more information! :)',
     },
     {
         id: 5,
@@ -44,6 +47,7 @@ export const workData = [
         imgUrl: '/temp4.jpg',
         type: 'code',
         shortcut: '/twitter_clone',
+        desc: 'This page is still a work in progress. Check back later for more information! :)',
     },
     {
         id: 6,
@@ -52,6 +56,7 @@ export const workData = [
         imgUrl: '/temp5.jpg',
         type: 'code',
         shortcut: '/rotten_tomatoes_clone',
+        desc: 'This page is still a work in progress. Check back later for more information! :)',
     },
     {
         id: 7,
@@ -60,6 +65,7 @@ export const workData = [
         imgUrl: '/temp1.jpg',
         type: 'design',
         shortcut: '/uiux_design',
+        desc: 'This page is still a work in progress. Check back later for more information! :)',
     },
     {
         id: 8,
@@ -68,6 +74,7 @@ export const workData = [
         imgUrl: '/temp2.jpg',
         type: 'design',
         shortcut: '/type_branding',
+        desc: 'This page is still a work in progress. Check back later for more information! :)',
     },
     {
         id: 9,
@@ -85,7 +92,7 @@ export const workData = [
         imgUrl: '/temp4.jpg',
         type: 'design',
         shortcut: '/aasu',
-        desc: 'The Asian American Student Union at the University of Florida',
+        desc: 'This page is still a work in progress. Check back later for more information! :)',
     },
     {
         id: 11,
@@ -94,6 +101,7 @@ export const workData = [
         imgUrl: '/temp3.jpg',
         type: 'design',
         shortcut: '/sase',
+        desc: 'This page is still a work in progress. Check back later for more information! :)',
     },
     {
         id: 12,
@@ -102,6 +110,7 @@ export const workData = [
         imgUrl: '/temp6.jpg',
         type: 'design',
         shortcut: '/casa',
+        desc: 'This page is still a work in progress. Check back later for more information! :)',
     },
     {
         id: 13,
@@ -109,7 +118,8 @@ export const workData = [
         date: '2022 - 23',
         imgUrl: '/temp7.jpg',
         type: 'design',
-        shortcut: '/uf_design'
+        shortcut: '/uf_design',
+        desc: 'This page is still a work in progress. Check back later for more information! :)',
     },
     {
         id: 14,
