@@ -1,6 +1,7 @@
 import { useRouter } from 'next/router';
 import ProjectHeader from '@/components/ProjectHeader';
 import ProjectDetails from '@/components/ProjectDetails';
+import More from '@/components/More';
 import Image from 'next/image';
 
 const Insync = () => {
@@ -37,6 +38,7 @@ const Insync = () => {
                     <p>{project.development}</p>
                 </div>
             </div>
+            <More />
         </div>
     )
 }
