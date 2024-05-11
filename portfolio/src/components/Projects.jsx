@@ -11,8 +11,8 @@ const ProjectCard = ( {project} ) => {
             <Link href={{ pathname: projectLink, query: project}}>
                 <Image className="project-image"
                 src={project.imgUrl}
-                width={600}
-                height={600}
+                width={500}
+                height={500}
                 alt={project.title}/>
             </Link>
             <p>{project.title} // {project.date}</p>
