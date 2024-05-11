@@ -111,7 +111,7 @@ a:hover {
 .hero-container .hero-name {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
   align-content: center;
 }
 .hero-container .hero-name h3 {
@@ -184,8 +184,8 @@ a:hover {
 */
 .project-container .project-card {
   display: flex;
-  justify-content: start;
-  align-content: start;
+  justify-content: flex-start;
+  align-content: flex-start;
   flex-direction: column;
 }
 .project-card .project-image {
@@ -209,7 +209,7 @@ a:hover {
 /* More Bar */
 .more-container {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
   background-color: var(--secondary-color);
   height: 65px;
@@ -321,7 +321,7 @@ a:hover {
 .exp-container .exp-list {
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: flex-start;
   width: 500px;
   margin-top: 50px;
 }
@@ -455,13 +455,13 @@ a:hover {
 /* project details header */
 .title-container {
   display: flex;
-  margin: 10rem;
+  margin: 7rem;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .title-container .title-img {
-  display: contents;
   width: 100%;
+  border: 1px solid var(--primary-color);
 }
 .title-container .title-text {
   display: flex;
@@ -471,13 +471,14 @@ a:hover {
   color: var(--secondary-color);
   font-style: italic;
   font-size: var(--title-text);
+  max-width: 620px;
   letter-spacing: -5px;
   line-height: 100%;
 }
 .title-text hr {
   border: 1px solid var(--tertiary-color);
   margin-left: 13%;
-  width: 100%;
+  width: 620px;
 }
 .title-text .title-year {
   align-self: last baseline;
@@ -489,9 +490,102 @@ a:hover {
 }
 .title-text p {
   font-family: var(--secondary-font);
-  margin-top: 2rem;
+  margin-top: 1.5rem;
+  max-width: 620px;
 }
 
-/* film details */
-.project-title {
+/* Image Card for proj details reuse */
+.image-card {
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  flex-direction: column;
+}
+.image-card .image-card-image {
+  width: 100%;
+  border: 1px solid var(--primary-color);
+}
+.image-card .image-card-image:hover {
+  border: 1px solid var(--secondary-color);
+  box-shadow: 5px 5px 10px var(--primary-color);
+  color: var(--bg-color);
+  opacity: 75%;
+}
+.image-card p {
+  color: var(--primary-color);
+  font-size: var(--primary-text);
+  font-style: italic;
+  margin-top: 7px;
+  vertical-align: bottom;
+}
+
+/* Project Images */
+.proj-imgs-container {
+  margin: 7rem 5rem;
+}
+
+/* Project Details List Item */
+.list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.list-container h3 {
+  font-size: var(--subheading-text);
+  color: var(--bg-color);
+  font-style: italic;
+}
+.list-container hr {
+  border: 0.5px solid var(--bg-color);
+  width: 100%;
+  margin-left: 2rem;
+  margin-top: -0.5rem;
+}
+.list-container .list-info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+.list-info p {
+  color: var(--bg-color);
+  font-family: var(--secondary-font);
+  margin-left: 1px;
+}
+/* Project Details Block */
+.pd-container {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: var(--secondary-color);
+  padding: 3rem 0;
+  margin-top: -3rem;
+}
+/* Project Info -- Overview & Development */
+.ovw-dev-container {
+  display: flex;
+  margin: 7rem;
+  justify-content: space-between;
+}
+.ovw-dev-container .ovw-dev-img {
+  border: 1px solid var(--primary-color);
+}
+.ovw-dev-container .ovw-dev-text {
+  display: flex;
+  flex-direction: column;
+  max-width: 40rem;
+}
+.ovw-dev-text hr {
+  border: 0.5px solid var(--tertiary-color);
+  width: 100%;
+  color: var(--tertiary-color);
+  margin-left: 2rem;
+}
+.ovw-dev-text h2 {
+  color: var(--secondary-color);
+  font-style: italic;
+  font-size: var(--subtitle-text);
+}
+.ovw-dev-text p {
+  color: var(--primary-color);
+  font-family: var(--secondary-font);
+  margin-top: 2rem;
 }
