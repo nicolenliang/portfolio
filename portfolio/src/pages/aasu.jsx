@@ -1,7 +1,8 @@
-import { useRouter } from 'next/router';
 import ProjectHeader from '@/components/ProjectHeader';
 import More from '@/components/More';
 import ImageCard from '@/components/ImageCard';
+
+import { useRouter } from 'next/router';
 import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
 import { promises as fs } from 'fs';
 import path from 'path';
@@ -10,7 +11,7 @@ const Aasu = ( {aasuFiles} ) => {
     const router = useRouter();
     var project = router.query;
 
-    const columnsCountBreakPoints = {350:1, 750:3, 900:3}
+    const columnsCountBreakPoints = {350:1, 750:2, 900:3}
 
     const aasuGbm = aasuFiles.filter(file => file.type == "gbm");
     const aasuMerch = aasuFiles.filter(file => file.type == "merch");
