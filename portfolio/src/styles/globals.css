@@ -452,7 +452,7 @@ a:hover {
   font-style: italic;
 }
 
-/* project details header */
+/* Project Details Header -- title, year, description */
 .title-container {
   display: flex;
   margin: 7rem;
@@ -494,7 +494,7 @@ a:hover {
   max-width: 620px;
 }
 
-/* Image Card for proj details reuse */
+/* Image Card -- for proj details reuse */
 .image-card {
   display: flex;
   justify-content: flex-start;
@@ -519,12 +519,15 @@ a:hover {
   vertical-align: bottom;
 }
 
-/* Project Images */
-.proj-imgs-container {
-  margin: 7rem 5rem;
+/* Project Details Block */
+.pd-container {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: var(--secondary-color);
+  padding: 3rem 0;
+  margin-top: -3rem;
 }
-
-/* Project Details List Item */
+/* Project Details List Item -- role, tools, languages */
 .list-container {
   display: flex;
   flex-direction: column;
@@ -551,41 +554,41 @@ a:hover {
   font-family: var(--secondary-font);
   margin-left: 1px;
 }
-/* Project Details Block */
-.pd-container {
+
+/* Project Images -- for purely image pages */
+.proj-imgs-container {
   display: flex;
-  justify-content: space-evenly;
-  background-color: var(--secondary-color);
-  padding: 3rem 0;
-  margin-top: -3rem;
+  flex-direction: column;
+  margin: 7rem 5rem;
 }
+
 /* Project Info -- Overview & Development */
-.ovw-dev-container {
+.proj-subsec-container {
   display: flex;
   margin: 7rem;
   justify-content: space-between;
 }
-.ovw-dev-container .ovw-dev-img {
+.proj-subsec-container .proj-subsec-img {
   border: 1px solid var(--primary-color);
 }
-.ovw-dev-container .ovw-dev-text {
+.proj-subsec-container .proj-subsec-text {
   display: flex;
   flex-direction: column;
   max-width: 40rem;
 }
-.ovw-dev-text hr {
-  border: 0.5px solid var(--tertiary-color);
-  width: 100%;
-  color: var(--tertiary-color);
-  margin-left: 2rem;
-}
-.ovw-dev-text h2 {
+.proj-subsec-text h2 {
   color: var(--secondary-color);
   font-style: italic;
   font-size: var(--subtitle-text);
 }
-.ovw-dev-text p {
+.proj-subsec-text hr {
+  border: 0.5px solid var(--tertiary-color);
+  width: 100%;
+  color: var(--tertiary-color);
+  margin-left: 2rem;
+  margin-bottom: 3rem;
+}
+.proj-subsec-text p {
   color: var(--primary-color);
   font-family: var(--secondary-font);
-  margin-top: 2rem;
 }
