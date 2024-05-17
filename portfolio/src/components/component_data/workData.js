@@ -11,7 +11,8 @@ export const workData = [
         tools: ['FIGMA', 'TRELLO', 'VS CODE', 'GITHUB'],
         languages: ['JAVASCRIPT', 'REACT', 'HTML/CSS'],
         overview: 'InSync was created out of necessity -- namely, my friends and I\'s senior project. However, the birth of its concept came from a place of love and connection, and what brought us close in the first place: music. Much of our initial friendship was centered around both alike and dissimilar music tastes -- sharing music through Spotify links, roasting music through Spotify blends. It was from this shared experience that the idea for InSync came to be. What if we could facilitate that connection? Thus, InSync. The various viral Spotify apps that already exist helped, too. Starting from a research proposal and going through several presentations with our faculty advisor, multiple blockers with the development of the product, and about three different iterations of our matching algorithm, InSync eventually came to be. Created with love, late nights, and lots of stupid jokes by Nancy Chen, Christopher In, Nicole Liang, and Arthur Liu.',
-        development: 'The development process for InSync was fairly straightforward, give or take a few curveballs. We started with a research proposal, which consisted of citations from peer-reviewed articles backing the existence of connection through music. We each took time to learn to use the Spotify API/SDK to integrate Spotify\'s music and listening data into our app. Initially meant to be a mobile app, we discovered Spotify has different APIs for Android and Apple, so we pivoted to a web-based app. We used Figma to plan our UI/UX designs and user flows, and React to develop the frontend. We used Firebase and JavaScript for data storage, manipulation, and logic. Finally, we used Trello and GitHub for project management and code control, respectively.'
+        development: 'The development process for InSync was fairly straightforward, give or take a few curveballs. We started with a research proposal, which consisted of citations from peer-reviewed articles backing the existence of connection through music. We each took time to learn to use the Spotify API/SDK to integrate Spotify\'s music and listening data into our app. Initially meant to be a mobile app, we discovered Spotify has different APIs for Android and Apple, so we pivoted to a web-based app. We used Figma to plan our UI/UX designs and user flows, and React to develop the frontend. We used Firebase and JavaScript for data storage, manipulation, and logic. Finally, we used Trello and GitHub for project management and code control, respectively.',
+        feature: true,
     },
     {
         id: 2,
@@ -30,6 +31,7 @@ export const workData = [
         type: 'code',
         shortcut: '/s2udy',
         desc: 'This page is still a work in progress. Check back later for more information! :)',
+        feature: true,
     },
     {
         id: 4,
@@ -66,6 +68,7 @@ export const workData = [
         type: 'design',
         shortcut: '/uiux_design',
         desc: 'This page is still a work in progress. Check back later for more information! :)',
+        feature: true,
     },
     {
         id: 8,
@@ -84,15 +87,17 @@ export const workData = [
         type: 'design',
         shortcut: '/film_photography',
         desc: 'Sparked in 2019 after I finally figured out how disposable cameras work, film has been a favorite medium of mine to capture singular moments in time. Whether it be a beautiful view or a sweet moment with friends, film photography adds a layer of nostalgia that exactly enhances the feeling of an occasion. Typically shot on Canon AE-1, occasionally with a $15 disposable from Walgreens.',
+        feature: true,
     },
     {
         id: 10,
         title: 'Asian American Student Union',
         date: '2021 - 23',
-        imgUrl: '/temp4.jpg',
+        imgUrl: '/aasu/merch1.png',
         type: 'design',
         shortcut: '/aasu',
         desc: 'This page is still a work in progress. Check back later for more information! :)',
+        feature: true,
     },
     {
         id: 11,
@@ -129,5 +134,6 @@ export const workData = [
         type: 'design',
         shortcut: '/illustration',
         desc: 'Since I discovered that you could create with just a #2 pencil and a sheet of copy paper, I\'ve loved drawing and illustration. It\'s been an intrinsic part of my life for as long as I can remember, and still something I try to keep up with in my free time. This page features a compilation of some of the works I\'m prouder of.',
+        feature: true,
     },
 ];
