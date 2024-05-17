@@ -12,27 +12,27 @@ const Insync = () => {
         <div>
             <ProjectHeader project={project} />
             <ProjectDetails project={project} />
-            <div className="ovw-dev-container">
-                <div className="ovw-dev-text">
+            <div className="proj-subsec-container">
+                <div className="proj-subsec-text">
                     <h2>Overview</h2>
                     <hr />
                     <p>{project.overview}</p>
                 </div>
-                <Image className="ovw-dev-img"
+                <Image className="proj-subsec-img"
                     src="/temp1.jpg"
                     width={500}
                     height={500}
                     alt="temp"
                 />
             </div>
-            <div className="ovw-dev-container">
-                <Image className="ovw-dev-img"
+            <div className="proj-subsec-container">
+                <Image className="proj-subsec-img"
                     src="/temp6.jpg"
                     width={500}
                     height={500}
                     alt="temp"
                 />
-                <div className="ovw-dev-text">
+                <div className="proj-subsec-text">
                     <h2>Development</h2>
                     <hr />
                     <p>{project.development}</p>
