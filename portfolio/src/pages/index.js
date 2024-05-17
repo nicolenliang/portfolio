@@ -2,11 +2,13 @@ import Hero from '@/components/Hero';
 import Projects from '@/components/Projects';
 import More from '@/components/More';
 import Contact from '@/components/Contact';
-import { featureData } from '@/components/component_data/featureData';
+import { workData } from '@/components/component_data/workData';
 
 import Head from 'next/head';
 
 export default function Home() {
+  const featured = workData.filter(project => project.feature == true);
+
   return (
     <>
       <Head>
@@ -17,7 +19,7 @@ export default function Home() {
       </Head>
       <div>
         <Hero />
-        <Projects data={featureData} />
+        <Projects data={featured} />
         <More />
         <Contact />
       </div>
