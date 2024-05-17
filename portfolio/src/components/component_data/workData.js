@@ -96,7 +96,7 @@ export const workData = [
         imgUrl: '/aasu/merch1.png',
         type: 'design',
         shortcut: '/aasu',
-        desc: 'This page is still a work in progress. Check back later for more information! :)',
+        desc: 'The Asian American Student Union at the University of Florida was founded in 1993 to foster Asian and Asian-American culture, unity, and awareness across campus. Comprised of 5 sub-organizations, 3 programs, and 9 affiliate organizations, AASU hosts a multitude of cultural events, meetings, and workshops to promote Asian-American culture on campus. As Multimedia Director, I was tasked with creating graphics, flyers, and merchandise, as well as curating our social media presence to help promote the organization.',
         feature: true,
     },
     {
