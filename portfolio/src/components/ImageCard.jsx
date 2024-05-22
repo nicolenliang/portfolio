@@ -11,8 +11,8 @@ const ImageCard = ( {filename, caption, onCardClick} ) => {
                     height={600}
                     alt={caption}
                 />
-                <p>{caption}</p>
             </button>
+            <p>{caption}</p>
         </div>
     )
 };
