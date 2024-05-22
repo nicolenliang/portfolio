@@ -54,12 +54,14 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.25rem 2.25rem; /* top-bottom right-left */
+  padding: 0.5rem 2.25rem; /* top-bottom right-left */
   position: sticky;
   z-index: 1;
   top: 0;
   left: 0;
   margin-bottom: 45px;
+  background: transparent;
+  /* backdrop-filter: blur(10px); */
 }
 .links {
   display: flex;
@@ -497,8 +499,7 @@ a:hover {
 /* Image Card -- for proj details reuse */
 .image-card {
   display: flex;
-  justify-content: flex-start;
-  align-content: flex-start;
+  justify-items: flex-start;
   flex-direction: column;
 }
 .image-card .image-card-image {
@@ -583,7 +584,7 @@ a:hover {
 }
 .proj-subsec-text hr {
   border: 0.5px solid var(--tertiary-color);
-  width: 100%;
+  width: 97%;
   color: var(--tertiary-color);
   margin-left: 2rem;
   margin-bottom: 3rem;
