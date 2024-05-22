@@ -1,6 +1,6 @@
 import Contact from '@/components/Contact';
 import Projects from '@/components/Projects';
-import { workData } from '@/components/component_data/workData';
+import { workData } from '@/components/component_data/projectData';
 
 import { useState } from 'react';
 
