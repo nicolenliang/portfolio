@@ -41,7 +41,7 @@
     },
     {
         "file": "/aasu/merch4.png",
-        "caption": "Gingko Tote Bag // 2022",
+        "caption": "Ginkgo Tote Bag // 2022",
         "type": "merch"
     },
     {
@@ -50,13 +50,13 @@
         "type": "merch"
     },
     {
-        "file": "/aasu/misc1.png",
-        "caption": "ECAASU Summit: Undivided // 2022",
+        "file": "/aasu/misc2.png",
+        "caption": "Letters to Warm the Heart, Service Event // 2022",
         "type": "misc"
     },
     {
-        "file": "/aasu/misc2.png",
-        "caption": "Letters to Warm the Heart, Service Event // 2022",
+        "file": "/aasu/misc7.png",
+        "caption": "AASU Logo Rebrand // 2021",
         "type": "misc"
     },
     {
@@ -70,13 +70,18 @@
         "type": "misc"
     },
     {
-        "file": "/aasu/misc6.png",
-        "caption": "Board Introductions // 2021", 
+        "file": "/aasu/misc1.png",
+        "caption": "ECAASU Summit: Undivided // 2022",
         "type": "misc"
     },
     {
         "file": "/aasu/misc5.png",
         "caption": "Minari: a Film Screening // 2021",
+        "type": "misc"
+    },
+    {
+        "file": "/aasu/misc6.png",
+        "caption": "Board Introductions // 2021",
         "type": "misc"
     }
 ]
