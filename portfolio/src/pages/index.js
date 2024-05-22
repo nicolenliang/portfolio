@@ -2,7 +2,7 @@ import Hero from '@/components/Hero';
 import Projects from '@/components/Projects';
 import More from '@/components/More';
 import Contact from '@/components/Contact';
-import { workData } from '@/components/component_data/workData';
+import { workData } from '@/components/component_data/projectData';
 
 import Head from 'next/head';
 
