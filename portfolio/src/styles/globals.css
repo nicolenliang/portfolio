@@ -357,15 +357,15 @@ a:hover {
   margin-top: 5%;
 }
 .about-intro .about-img {
-  width: 100%;
-  height: 100%;
+  width: 35%;
+  height: 50%;
   margin-right: 10rem;
   position: relative;
 }
 .about-img::before {
   content: "";
   width: 100%;
-  height: 74%;
+  height: 75%;
   top: 13%;
   position: absolute;
   border: 1px solid var(--primary-color);
@@ -374,7 +374,7 @@ a:hover {
   display: flex;
   justify-items: end;
   flex-direction: column; 
-  max-width: 450px;
+  max-width: 50%;
 }
 .about-text p {
   font-family: var(--secondary-font);
@@ -494,6 +494,7 @@ a:hover {
   font-family: var(--secondary-font);
   margin-top: 1.5rem;
   max-width: 620px;
+  color: var(--primary-color);
 }
 
 /* Image Card -- for proj details reuse */
@@ -570,6 +571,7 @@ a:hover {
   justify-content: space-between;
 }
 .proj-subsec-container .proj-subsec-img {
+  height: 75%;
   border: 1px solid var(--primary-color);
 }
 .proj-subsec-container .proj-subsec-text {
