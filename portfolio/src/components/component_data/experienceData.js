@@ -6,6 +6,7 @@ export const experienceData = [
             'FRONT-END DEVELOPMENT',
             'GRAPHIC DESIGN',
             'CREATIVE DIRECTION',
+            'PHOTOGRAPHY',
             'ILLUSTRATION',
         ],
     },
@@ -22,8 +23,10 @@ export const experienceData = [
     {
         title: 'Software & Technologies',
         exp: [
-            'ADOBE PHOTOSHOP, ILLUSTRATOR, INDESIGN',
-            'PROCREATE',
+            'ADOBE PHOTOSHOP & ILLUSTRATOR',
+            'ADOBE INDESIGN',
+            'ADOBE LIGHTROOM',
+            'PROCREATE (ON IPAD)',
             'FIGMA',
             'VISUAL STUDIO CODE',
             'CANVA',
