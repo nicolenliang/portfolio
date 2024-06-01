@@ -300,6 +300,14 @@ a:hover {
   border: 1px solid var(--primary-color);
   margin-left: 14%;
 }
+/* About Page Social Icons */
+.socials {
+  display: flex;
+  margin-top: 3rem;
+}
+.socials a:hover {
+  border-bottom: 0px;
+}
 /* About Experiences Item */
 .exp-container {
   display: flex;
@@ -357,7 +365,7 @@ a:hover {
   margin-top: 5%;
 }
 .about-intro .about-img {
-  width: 35%;
+  width: 100%;
   height: 50%;
   margin-right: 10rem;
   position: relative;
@@ -374,7 +382,7 @@ a:hover {
   display: flex;
   justify-items: end;
   flex-direction: column; 
-  max-width: 50%;
+  max-width: 45%;
 }
 .about-text p {
   font-family: var(--secondary-font);
@@ -454,6 +462,7 @@ a:hover {
   font-style: italic;
 }
 
+
 /* Project Details Header -- title, year, description */
 .title-container {
   display: flex;
@@ -473,22 +482,22 @@ a:hover {
   color: var(--secondary-color);
   font-style: italic;
   font-size: var(--title-text);
-  max-width: 620px;
+  max-width: 700px;
   letter-spacing: -5px;
   line-height: 100%;
 }
 .title-text hr {
   border: 1px solid var(--tertiary-color);
-  margin-left: 13%;
-  width: 620px;
+  margin-left: 3rem;
+  width: 100%;
 }
 .title-text .title-year {
-  align-self: last baseline;
+  align-self: flex-end;
   font-family: var(--primary-font);
   font-style: italic;
   font-size: 14px;
-  margin-right: -13%;
   margin-top: 0;
+  margin-right: -3rem;
 }
 .title-text p {
   font-family: var(--secondary-font);
@@ -496,6 +505,7 @@ a:hover {
   max-width: 620px;
   color: var(--primary-color);
 }
+
 
 /* Image Card -- for proj details reuse */
 .image-card {
@@ -520,6 +530,7 @@ a:hover {
   margin-top: 7px;
   vertical-align: bottom;
 }
+
 
 /* Project Details Block */
 .pd-container {
@@ -557,12 +568,14 @@ a:hover {
   margin-left: 1px;
 }
 
+
 /* Project Images -- for purely image pages */
 .proj-imgs-container {
   display: flex;
   flex-direction: column;
   margin: 7rem 5rem;
 }
+
 
 /* Project Info -- Overview & Development */
 .proj-subsec-container {
