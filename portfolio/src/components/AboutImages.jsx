@@ -1,17 +1,15 @@
 import Image from 'next/image';
-import ny from '../../public/ny-img.png';
-import jp from '../../public/jp-img.png';
 
 const AboutImages = () => {
     return (
         <div className="about-images">
             <Image className="right-img"
-                src={jp}
+                src="/about-2.png"
                 width={365}
                 height={365}
                 alt="Nicole in Japan, 2023" />
             <Image className="left-img"
-                src={ny}
+                src="/about-1.png"
                 width={365}
                 height={365}
                 alt="Nicole in New York, 2021" />
