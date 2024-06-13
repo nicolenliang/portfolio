@@ -2,12 +2,12 @@ import Hero from '@/components/Hero';
 import Projects from '@/components/Projects';
 import More from '@/components/More';
 import Contact from '@/components/Contact';
-import { workData } from '@/components/component_data/projectData';
+import { projectData } from '@/components/component_data/projectData';
 
 import Head from 'next/head';
 
 export default function Home() {
-  const featured = workData.filter(project => project.feature == true);
+  const featured = projectData.filter(project => project.feature == true);
 
   return (
     <>

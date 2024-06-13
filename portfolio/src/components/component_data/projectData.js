@@ -1,4 +1,4 @@
-export const workData = [
+export const projectData = [
     {
         title: 'InSync',
         date: '2022 - 23',

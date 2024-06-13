@@ -1,12 +1,12 @@
 import Contact from '@/components/Contact';
 import Projects from '@/components/Projects';
-import { workData } from '@/components/component_data/projectData';
+import { projectData } from '@/components/component_data/projectData';
 
 import { useState } from 'react';
 
 const Work = () => {
-    const allData = workData;
-    const [data, setData] = useState(workData);
+    const allData = projectData;
+    const [data, setData] = useState(projectData);
 
     const filterData = (event) => {
         const type = event.target.value;
@@ -14,7 +14,7 @@ const Work = () => {
             setData(allData);
         }
         else {
-            const filtered = workData.filter(project => project.type == type);
+            const filtered = projectData.filter(project => project.type == type);
             setData(filtered);
         }
     }
