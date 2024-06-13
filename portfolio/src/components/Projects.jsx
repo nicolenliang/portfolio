@@ -8,7 +8,7 @@ const ProjectCard = ( {project} ) => {
 
     return (
         <div className="project-card" key={project.id}>
-            <Link href={{ pathname: projectLink, query: project}}>
+            <Link href={{ pathname: projectLink, query: {name: project.title} }}>
                 <Image className="project-image"
                 src={project.imgUrl}
                 width={500}
