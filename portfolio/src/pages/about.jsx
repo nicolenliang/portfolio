@@ -2,7 +2,6 @@ import Contact from '@/components/Contact';
 import AboutImages from '@/components/AboutImages';
 import AboutExperience from '@/components/AboutExperience';
 import { experienceData } from '@/components/component_data/experienceData';
-import Link from 'next/link';
 import { SocialIcon } from 'react-social-icons'
 
 const About = () => {
