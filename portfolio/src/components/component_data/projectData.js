@@ -49,7 +49,7 @@ export const projectData = [
         date: '2021',
         imgUrl: '/wip.png',
         type: 'code',
-        shortcut: 'insta_clone',
+        shortcut: '/clones',
         desc: 'This page is still a work in progress. Check back later for more information! :)',
     },
     {
@@ -64,10 +64,10 @@ export const projectData = [
     {
         title: 'Society of Asian Scientists and Engineers',
         date: '2021 - 22',
-        imgUrl: '/sase/gbm1.png',
+        imgUrl: '/sase/gbm3.png',
         type: 'design',
         shortcut: '/sase',
-        desc: 'The Society of Asian Scientists and Engineers is an organization centered around Asian culture and professional development. They host career workshops, conferences, as well as general meetings regarding the Asian American professional experience. As Multimedia Director for them, I created semesterly merchandise, flyers and graphics, and promo videos. I also served as the Multimedia Chair for SASE’s annual regional conference one year, where I lead a committee of four to create a logo, a brochure, marketing materials, and informational graphics leading up to the conference.',
+        desc: 'The Society of Asian Scientists and Engineers is an organization centered around Asian culture and professional development. They host career workshops, conferences, as well as general meetings regarding the Asian American professional experience. As Multimedia Director for them, I created semesterly merchandise, flyers and graphics, and promo videos. I also served as the Multimedia Chair for SASE’s annual regional conference one year, where I led a committee of four to create a logo, a brochure, marketing materials, and informational graphics leading up to the conference.',
     },
     {
         title: 'Type & Branding',
