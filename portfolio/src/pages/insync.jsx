@@ -7,12 +7,11 @@ import Image from 'next/image';
 import { useRouter } from 'next/router';
 
 const Insync = () => {
-    const router = useRouter(); 
-    const projectName = router.query.name;
+    const router = useRouter();
+    const pathname = router.pathname;
 
-    var project = projectData.filter(project => project.title == projectName);
+    var project = projectData.filter(project => project.shortcut == pathname);
     project = project[0];
-    console.log('insync', project);
     
     return (
         <div>

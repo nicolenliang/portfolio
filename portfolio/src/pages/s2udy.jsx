@@ -1,14 +1,17 @@
 import ProjectHeader from '@/components/ProjectHeader';
 import ProjectDetails from '@/components/ProjectDetails';
 import More from '@/components/More';
+import { projectData } from '@/components/component_data/projectData';
 
 import Image from 'next/image';
 import { useRouter } from 'next/router';
 
 const S2udy = () => {
     const router = useRouter();
-    const project = router.query;
-    console.log(project)
+    const pathname = router.pathname;
+
+    var project = projectData.filter(project => project.shortcut == pathname);
+    project = project[0];
 
     return (
         <div>

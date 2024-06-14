@@ -2,7 +2,7 @@ import { useRouter } from 'next/router';
 import ProjectHeader from '@/components/ProjectHeader';
 import { projectData } from '@/components/component_data/projectData';
 
-const TypeBranding = () => {
+const InstaClone = () => {
     const router = useRouter();
     const pathname = router.pathname;
 
@@ -16,4 +16,4 @@ const TypeBranding = () => {
     )
 }
 
-export default TypeBranding;
+export default InstaClone;

@@ -1,6 +1,7 @@
 import ProjectHeader from '@/components/ProjectHeader';
 import ImageCard from '@/components/ImageCard';
 import More from '@/components/More';
+import { projectData } from '@/components/component_data/projectData';
 
 import { useRouter } from 'next/router';
 import { useState } from 'react';
@@ -10,7 +11,10 @@ import path from 'path';
 
 const FilmPhotography = ( {filmFiles} ) => {
     const router = useRouter();
-    var project = router.query;
+    const pathname = router.pathname;
+
+    var project = projectData.filter(project => project.shortcut == pathname);
+    project = project[0];
 
     const columnsCountBreakPoints = {350:1, 750:2, 900:3}
 
