@@ -61,7 +61,7 @@ a:hover {
   left: 0;
   margin-bottom: 45px;
   background: transparent;
-  /* backdrop-filter: blur(10px); */
+  backdrop-filter: blur(3px);
 }
 .links {
   display: flex;
