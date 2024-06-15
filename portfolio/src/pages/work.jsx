@@ -3,15 +3,24 @@ import Projects from '@/components/Projects';
 import { projectData } from '@/components/component_data/projectData';
 
 import { useState } from 'react';
+import { useRouter } from 'next/router';
 
 const Work = () => {
-    const allData = projectData;
-    const [data, setData] = useState(projectData);
+    const router = useRouter();
+    var type = router.query.type;
+    if (type) {
+        var prefiltered = projectData.filter(project => project.type == type);
+    }
+    else {
+        prefiltered = projectData;
+    }
 
+    const [data, setData] = useState(prefiltered);
+    
     const filterData = (event) => {
         const type = event.target.value;
         if (type == "all") {
-            setData(allData);
+            setData(projectData);
         }
         else {
             const filtered = projectData.filter(project => project.type == type);
