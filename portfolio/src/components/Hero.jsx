@@ -9,11 +9,11 @@ const Hero = () => {
             </div>
             <hr className="under-name"></hr>
             <div className="hero-roles">
-                <p><Link href="/work">
+                <p><Link href={{ pathname: "/work", query: { type: "design" }}}>
                     designer
                 </Link></p>
                 &nbsp;&nbsp; <p className="and">and</p> &nbsp;&nbsp;
-                <p><Link href="/work">
+                <p><Link href={{ pathname: "/work", query: {type: "code" }}}>
                     software engineer
                 </Link></p>
             </div>
