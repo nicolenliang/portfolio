@@ -27,7 +27,7 @@ const Projects = ( {data} ) => {
     return (
         <div className="project-container">
             <ResponsiveMasonry columnsCountBreakPoints={columnsCountBreakPoints}>
-                <Masonry gutter={'5rem'}>
+                <Masonry gutter={'7rem'}>
                     {data.map((project) => (
                         <ProjectCard project={project} />
                     ))}
