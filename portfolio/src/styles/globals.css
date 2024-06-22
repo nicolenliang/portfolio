@@ -377,6 +377,9 @@ a:hover {
   .contact-container .resumes {
     font-size: var(--mobile-text);
   }
+  .resumes-container .resume-link {
+    font-size: 10px;
+  }
 }
 
 
