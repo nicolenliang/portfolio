@@ -21,6 +21,7 @@ const FilmPhotography = ( {filmFiles} ) => {
     const [enlarged, setEnlarged] = useState(false);
     
     // need to add centering of image and blurring background
+    /*
     const onCardClick = (event) => {
         const filename = event.target.id;
         const image = document.getElementById(filename);
@@ -35,6 +36,7 @@ const FilmPhotography = ( {filmFiles} ) => {
         }
         setEnlarged(!enlarged);
     };
+    */
 
     return (
         <div>
@@ -46,7 +48,6 @@ const FilmPhotography = ( {filmFiles} ) => {
                             <ImageCard className="disable-blur"
                                 filename={file.file}
                                 caption={file.caption}
-                                onCardClick={onCardClick}
                             />
                         ))}
                     </Masonry>    
