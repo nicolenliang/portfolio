@@ -1,6 +1,7 @@
 import '@/styles/globals.css';
 import Layout from '../components/Layout';
 import { Baskervville } from 'next/font/google';
+import { Analytics } from '@vercel/analytics/react';
 
 const baskervville = Baskervville({
   subsets: ['latin'],
@@ -14,6 +15,7 @@ export default function App({ Component, pageProps }) {
       <Layout>
         <Component {...pageProps} />
       </Layout>
+      <Analytics />
     </main>
   );
 }
