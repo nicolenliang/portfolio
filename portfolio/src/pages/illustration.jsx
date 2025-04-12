@@ -15,7 +15,7 @@ const Illustration = ( {illusFiles} ) => {
     var project = projectData.filter(project => project.shortcut == pathname);
     project = project[0];
 
-    const columnsCountBreakPoints = {350:1, 750:2, 900:3}
+    const columnsCountBreakPoints = {350:1, 750:2, 900:2}
 
     return (
         <div>
