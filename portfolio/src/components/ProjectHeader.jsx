@@ -17,6 +17,13 @@ const ProjectHeader = ( {project} ) => {
                 <hr />
                 <p className="proj-year">{project.date}</p>
                 <p>{project.desc}</p>
+                {
+                    project.link ? (
+                        <Link className="proj-header-link" href={project.link}>website &#8599;</Link>
+                    ) : (
+                        <></>
+                    )
+                }
             </div>
         </div>
     )

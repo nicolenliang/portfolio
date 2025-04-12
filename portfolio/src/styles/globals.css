@@ -577,6 +577,9 @@ a:hover {
   border-bottom: 1px solid var(--secondary-color);
   font-style: italic;
 }
+.work-filters button:focus {
+  color: var(--secondary-color);
+}
 @media screen and (max-width: 720px) {
   .work-container {
     margin: 1rem 0;
@@ -647,6 +650,17 @@ a:hover {
   margin-top: 1.5rem;
   max-width: 620px;
   color: var(--primary-color);
+}
+.proj-header-text .proj-header-link {
+  font-family: var(--secondary-font);
+  margin-top: 1.5rem;
+  color: var(--primary-color);
+}
+.proj-header-text .proj-header-link:hover {
+  font-family: var(--secondary-font);
+  font-style: italic;
+  border-bottom: 0px;
+  color: var(--secondary-color);
 }
 @media screen and (max-width: 720px) {
   .proj-header-container {
