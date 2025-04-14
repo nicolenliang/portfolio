@@ -43,20 +43,12 @@ export const projectData = [
     },
     {
         title: 'Asian American Student Union',
-        date: '2021 - 23',
-        imgUrl: '/aasu/merch4.png',
+        date: '2020 - 23',
+        imgUrl: '/aasu/misc2.png',
         type: 'design',
         shortcut: '/aasu',
-        desc: 'The Asian American Student Union at the University of Florida was founded in 1993 to foster Asian and Asian-American culture, unity, and awareness across campus. Comprised of 5 sub-organizations, 3 programs, and 9 affiliate organizations, AASU hosts a multitude of cultural events, meetings, and workshops to promote Asian-American culture on campus. As Multimedia Director, I was tasked with creating graphics, flyers, and merchandise, as well as curating our social media presence to help promote the organization.',
+        desc: 'The Asian American Student Union at the University of Florida was founded in 1993 and is comprised of 17 organizations, all aiming to foster Asian and Asian-American culture, unity, and awareness across campus through cultural events, meetings, and workshops. As Multimedia Director for one sub-org, one affiliate org, and the Union as a whole, I helped create graphics, flyers, and merchandise, as well as curate social media presences to help promote each organization.',
         feature: true,
-    },
-    {
-        title: 'Society of Asian Scientists and Engineers',
-        date: '2021 - 22',
-        imgUrl: '/sase/gbm3.png',
-        type: 'design',
-        shortcut: '/sase',
-        desc: 'The Society of Asian Scientists and Engineers is an organization centered around Asian culture and professional development. They host career workshops, conferences, as well as general meetings regarding the Asian American professional experience. As Multimedia Director for them, I created semesterly merchandise, flyers and graphics, and promo videos. I also served as the Multimedia Chair for SASE’s annual regional conference one year, where I led a committee of four to create a logo, a brochure, marketing materials, and informational graphics leading up to the conference.',
     },
     {
         title: 'Type & Branding',
@@ -65,14 +57,6 @@ export const projectData = [
         type: 'design',
         shortcut: '/type_branding',
         desc: 'This page is still a work in progress. Check back later for more information! :)',
-    },
-    {
-        title: 'Chinese American Student Association',
-        date: '2020 - 21',
-        imgUrl: '/casa/misc2.png',
-        type: 'design',
-        shortcut: '/casa',
-        desc: 'The Chinese American Student Association is a sub-organization of AASU, focusing on the Chinese and Chinese American experience and providing an environment for people to share and learn about Chinese culture. As Direction of Multimedia - Graphics, I was in charge of making flyers and programs for our meetings, shows, and language workshops, as well as merchandise (t-shirts, stickers, hats, sweaters) both for the organization and specific series for our biannual cultural shows.',
     },
     {
         title: 'Film Photography',

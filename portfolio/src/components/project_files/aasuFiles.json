@@ -1,87 +1,114 @@
 [
     {
         "file": "/aasu/gbm1.png",
-        "caption": "It's Brutal Out Here! // 2021",
+        "caption": "Asian American Student Union // 2023",
         "type": "gbm"
     },
     {
         "file": "/aasu/gbm2.png",
-        "caption": "Freedom to Love (w/ PSU) // 2023",
+        "caption": "Chinese American Student Association // 2021",
         "type": "gbm"
     },
     {
         "file": "/aasu/gbm3.png",
-        "caption": "A Taste of Asian American History // 2023",
-        "type": "gbm"
-    },
-    {
-        "file": "/aasu/gbm4.png",
-        "caption": "AASU: Rewind // 2022",
+        "caption": "Society of Asian Scientists & Engineers // 2021",
         "type": "gbm"
     },
     {
         "file": "/aasu/gbm5.png",
-        "caption": "Language Workshop // 2023",
+        "caption": "Chinese American Student Association // 2021",
         "type": "gbm"
     },
     {
+        "file": "/aasu/gbm4.png",
+        "caption": "Asian American Student Union // 2023",
+        "type": "gbm"
+    },
+    {
+        "file": "/aasu/gbm6.png",
+        "caption": "Society of Asian Scientists & Engineers // 2021",
+        "type": "gbm"
+    },
+    {
+        "file": "/aasu/gbm7.png",
+        "caption": "Society of Asian Scientists & Engineers // 2022",
+        "type": "gbm"
+    },
+
+    {
         "file": "/aasu/merch1.png",
-        "caption": "Lucky Collection: Get Lucky w/ AASU T-Shirt // 2022",
-        "type": "merch"
-    },
-    {
-        "file": "/aasu/merch2.png",
-        "caption": "AASU Logo Sticker // 2021",
-        "type": "merch"
-    },
-    {
-        "file": "/aasu/merch3.png",
-        "caption": "Lucky Collection: AASU's Luck Sticker // 2022",
-        "type": "merch"
-    },
-    {
-        "file": "/aasu/merch4.png",
-        "caption": "Ginkgo Tote Bag // 2022",
+        "caption": "Asian American Student Union // 2022",
         "type": "merch"
     },
     {
         "file": "/aasu/merch5.png",
-        "caption": "AASU Swag Sticker // 2021",
+        "caption": "Asian American Student Union // 2022",
         "type": "merch"
     },
     {
+        "file": "/aasu/merch3.png",
+        "caption": "Asian American Student Union // 2022",
+        "type": "merch"
+    },
+    {
+        "file": "/aasu/merch6.png",
+        "caption": "Chinese American Student Association // 2020",
+        "type": "merch"
+    },
+    {
+        "file": "/aasu/merch2.png",
+        "caption": "Chinese American Student Association // 2021",
+        "type": "merch"
+    },
+    {
+        "file": "/aasu/merch4.png",
+        "caption": "Society of Asian Scientists & Engineers // 2022",
+        "type": "merch"
+    },
+
+    {
+        "file": "/aasu/misc1.jpg",
+        "caption": "Asian American Student Union // 2022",
+        "type": "misc"
+    },
+    {
         "file": "/aasu/misc2.png",
-        "caption": "Letters to Warm the Heart, Service Event // 2022",
+        "caption": "Asian American Student Union // 2021",
         "type": "misc"
     },
     {
-        "file": "/aasu/misc7.png",
-        "caption": "AASU Logo Rebrand // 2021",
-        "type": "misc"
-    },
-    {
-        "file": "/aasu/misc3.jpg",
-        "caption": "Habitat for Humanity, Service Event // 2022",
+        "file": "/aasu/misc3.png",
+        "caption": "Chinese American Student Association // 2021",
         "type": "misc"
     },
     {
         "file": "/aasu/misc4.png",
-        "caption": "Books!, a Book Drive // 2023",
-        "type": "misc"
-    },
-    {
-        "file": "/aasu/misc1.png",
-        "caption": "ECAASU Summit: Undivided // 2022",
+        "caption": "Asian American Student Union // 2022",
         "type": "misc"
     },
     {
         "file": "/aasu/misc5.png",
-        "caption": "Minari: a Film Screening // 2021",
+        "caption": "Chinese American Student Association // 2020",
         "type": "misc"
     },
     {
         "file": "/aasu/misc6.png",
-        "caption": "Board Introductions // 2021",
+        "caption": "Asian American Student Union // 2022",
+        "type": "misc"
+    },
+    {
+        "file": "/aasu/misc7.png",
+        "caption": "Chinese American Student Association // 2020",
+        "type": "misc"
+    },
+    {
+        "file": "/aasu/misc8.png",
+        "caption": "Chinese American Student Association // 2020",
+        "type": "misc"
+    },
+    {
+        "file": "/aasu/misc9.png",
+        "caption": "Society of Asian Scientists & Engineers // 2022",
         "type": "misc"
     }
 ]
