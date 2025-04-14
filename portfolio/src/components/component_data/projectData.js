@@ -29,7 +29,7 @@ export const projectData = [
     {
         title: 's2udy',
         date: '2021',
-        imgUrl: '/s2udy.png',
+        imgUrl: '/s2udy/s2udyFeature.png',
         type: 'code',
         shortcut: '/s2udy',
         desc: 's2udy is a collaborative studying app developed in the thick of lockdown during the COVID-19 pandemic. Developed for Android devices in Android Studio, the main language used was Java, with some light HTML for the project documentation’s formatting. The back-end was supported with Parse Platform, with data storage supported by Parse and MongoDB. Born from the realization that community and connection are crucial to living a good life (at least for me!).',

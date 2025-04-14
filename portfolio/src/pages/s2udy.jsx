@@ -24,7 +24,7 @@ const S2udy = () => {
                     <p>{project.overview}</p>
                 </div>
                 <Image className="proj-subsec-img"
-                    src="/s2udy-1.jpg"
+                    src="/s2udy/Wireframes.png"
                     width={500}
                     height={500}
                     alt="temp"
@@ -32,7 +32,7 @@ const S2udy = () => {
             </div>
             <div className="proj-subsec-container">
                 <Image className="proj-subsec-img"
-                    src="/s2udy-2.png"
+                    src="/s2udy/PhoneMockups.png"
                     width={500}
                     height={500}
                     alt="temp"
