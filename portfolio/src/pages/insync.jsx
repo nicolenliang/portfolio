@@ -24,7 +24,7 @@ const Insync = () => {
                     <p>{project.overview}</p>
                 </div>
                 <Image className="proj-subsec-img"
-                    src="/insync-1.jpg"
+                    src="/insync/PhoneMockups2.png"
                     width={500}
                     height={500}
                     alt="temp"
@@ -32,7 +32,7 @@ const Insync = () => {
             </div>
             <div className="proj-subsec-container">
                 <Image className="proj-subsec-img"
-                    src="/insync-2.png"
+                    src="/insync/PhoneMockups1.png"
                     width={500}
                     height={500}
                     alt="temp"

@@ -15,7 +15,7 @@ export const projectData = [
     {
         title: 'InSync',
         date: '2022 - 23',
-        imgUrl: '/insync.png',
+        imgUrl: '/insync/InsyncFeature.png',
         type: 'code',
         shortcut: '/insync',
         desc: 'InSync is a web-based application where users can match with each other based on their music compatibility. We drew UI inspiration from Spotify, and utilized Spotify\'s API to calculate compatibility scores based on your recent listening history. We used React to develop our front-end, and Firebase to store our user data.\nInspired by the multitudes of Spotify and dating apps out there, and our personal love for music and connection.',
