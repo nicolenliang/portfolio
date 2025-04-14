@@ -1,13 +1,13 @@
 export const projectData = [
     {
         title: 'Bibimbox',
-        date: '2023 - 24',
+        date: '2024 - 25',
         imgUrl: '/bibimbox/LogoMockup.png',
         type: 'design',
         shortcut: '/bibimbox',
         desc: 'Bibimbox is a Korean fast casual spot, serving up fast, fresh, and delicious meals reminiscent of Korean street food and home-cooked meals. Inspired by the Korean word "bibimbap", Bibimbox focuses on quick service and yummy food, specializing in customizable bibimbap bowls and crispy Korean fried chicken. The bright colors and simple doodles that make up its branding are meant to exude a friendly, casual, and fun atmosphere.',
         role: ['BRANDING', 'GRAPHIC DESIGN', 'WEBSITE DESIGN'],
-        tools: ['ADOBE PHOTOSHOP', 'ADOBE ILLUSTRATOR', 'ADOBE INDESIGN', 'FIGMA'],
+        tools: ['ADOBE ILLUSTRATOR', 'ADOBE INDESIGN', 'ADOBE PHOTOSHOP', 'FIGMA'],
         languages: ['HTML/CSS'],
         link: 'https://eatbibimbox.com',
         feature: true,
