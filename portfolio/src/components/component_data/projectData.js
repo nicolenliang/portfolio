@@ -5,7 +5,7 @@ export const projectData = [
         imgUrl: '/kumokumo/LogoMockup.png',
         type: 'design',
         shortcut: '/kumokumo',
-        desc: 'kumo kumo is a cafe specializing in Asian pastries and desserts. The name "kumo kumo" is derived from the Japanese word for "cloud", and the cafe aims to create a whimsical and dreamy atmosphere for its guests. The branding features soft pastels and deep earth tones paired with playful illustrations, evoking feelings of sweetness and fun.',
+        desc: 'kumo kumo is a cafe specializing in Asian pastries and desserts. The name "kumo kumo" is derived from the Japanese word for "cloud", and the cafe aims to create a whimsical and dreamy atmosphere for its guests. The branding features soft pastels and deep earth tones paired with playful illustrations, evoking a sense of lightness and comfort.',
         role: ['BRANDING', 'GRAPHIC DESIGN', 'WEBSITE DESIGN'],
         tools: ['ADOBE ILLUSTRATOR', 'ADOBE INDESIGN', 'ADOBE PHOTOSHOP', 'FIGMA'],
         languages: ['HTML/CSS'],
