@@ -425,6 +425,7 @@ a:hover {
   color: var(--bg-color);
   font-size: var(--subheading-text);
   font-style: italic;
+  line-height: 100%;
 }
 .exp-title hr {
   color: var(--bg-color);
@@ -436,7 +437,7 @@ a:hover {
   flex-direction: column;
   align-items: flex-start;
   width: 500px;
-  margin-top: 50px;
+  margin-top: 24px;
 }
 .exp-container p {
   color: var(--bg-color);
@@ -548,6 +549,7 @@ a:hover {
   font-size: var(--heading-text);
   font-style: italic;
   letter-spacing: -5px;
+  line-height: 100%;
 }
 .work-header hr {
   border: 1px solid var(--tertiary-color);
