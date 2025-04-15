@@ -13,8 +13,6 @@ export default function Home() {
     <>
       <Head>
         <title>Nicole Liang</title>
-        <meta name="description" content="nicole's portfolio" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />
       </Head>
       <div>

@@ -8,6 +8,7 @@ import { useRouter } from 'next/router';
 import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
 import { promises as fs } from 'fs';
 import path from 'path';
+import Head from 'next/head';
 
 const KumoKumo = ( {kkFiles} ) => {
     const router = useRouter();
@@ -20,6 +21,11 @@ const KumoKumo = ( {kkFiles} ) => {
     
     return (
         <div>
+            <Head>
+                <title>kumo kumo &bull; Nicole Liang</title>
+                <link rel="icon" href="/favicon.png" />
+            </Head>
+
             <ProjectHeader project={project} />
             <ProjectDetails project={project} />
             <div className="proj-imgs-container" id="proj-imgs-container">

@@ -4,6 +4,7 @@ import { projectData } from '@/components/component_data/projectData';
 
 import { useState } from 'react';
 import { useRouter } from 'next/router';
+import Head from 'next/head';
 
 const Work = () => {
     const router = useRouter();
@@ -30,6 +31,11 @@ const Work = () => {
 
     return (
         <div className="work-container">
+            <Head>
+                <title>projects &bull; Nicole Liang</title>
+                <link rel="icon" href="/favicon.png" />
+            </Head>
+            
             <div className="work-header">
                 <h1>Projects</h1>
                 <hr />

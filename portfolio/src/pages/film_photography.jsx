@@ -8,6 +8,7 @@ import { useState } from 'react';
 import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
 import { promises as fs } from 'fs';
 import path from 'path';
+import Head from 'next/head';
 
 const FilmPhotography = ( {filmFiles} ) => {
     const router = useRouter();
@@ -40,6 +41,11 @@ const FilmPhotography = ( {filmFiles} ) => {
 
     return (
         <div>
+            <Head>
+                <title>film &bull; Nicole Liang</title>
+                <link rel="icon" href="/favicon.png" />
+            </Head>
+
             <ProjectHeader project={project} />
             <div className="proj-imgs-container" id="proj-imgs-container">
                 <ResponsiveMasonry columnsCountBreakPoints={columnsCountBreakPoints}>

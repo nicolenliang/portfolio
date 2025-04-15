@@ -5,6 +5,7 @@ import { projectData } from '@/components/component_data/projectData';
 
 import Image from 'next/image';
 import { useRouter } from 'next/router';
+import Head from 'next/head';
 
 const Insync = () => {
     const router = useRouter();
@@ -15,6 +16,11 @@ const Insync = () => {
     
     return (
         <div>
+            <Head>
+                <title>insync &bull; Nicole Liang</title>
+                <link rel="icon" href="/favicon.png" />
+            </Head>
+
             <ProjectHeader project={project} />
             <ProjectDetails project={project} />
             <div className="proj-subsec-container">

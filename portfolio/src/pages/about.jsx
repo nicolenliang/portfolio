@@ -3,10 +3,16 @@ import AboutImages from '@/components/AboutImages';
 import AboutExperience from '@/components/AboutExperience';
 import { experienceData } from '@/components/component_data/experienceData';
 import { SocialIcon } from 'react-social-icons'
+import Head from 'next/head';
 
 const About = () => {
     return (
         <div className="about-container">
+            <Head>
+                <title>about &bull; Nicole Liang</title>
+                <link rel="icon" href="/favicon.png" />
+            </Head>
+            
             <div className="about-intro">
                 <div className="about-img">
                     <AboutImages />

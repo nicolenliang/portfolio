@@ -7,6 +7,7 @@ import { useRouter } from 'next/router';
 import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
 import { promises as fs } from 'fs';
 import path from 'path';
+import Head from 'next/head';
 
 const Aasu = ( {aasuFiles} ) => {
     const router = useRouter();
@@ -23,6 +24,11 @@ const Aasu = ( {aasuFiles} ) => {
 
     return (
         <div>
+            <Head>
+                <title>AASU &bull; Nicole Liang</title>
+                <link rel="icon" href="/favicon.png" />
+            </Head>
+
             <ProjectHeader project={project} />
             <div className="proj-imgs-container">
                 <div className="proj-subsec-text">
