@@ -233,7 +233,7 @@ a:hover {
 
 /* Design Projects */
 .project-container {
-  margin: 7rem 7rem 0;
+  margin: 7rem 8rem 0;
 }
 /* styles for self-made masonry
 .project-container .left-column {
@@ -551,7 +551,7 @@ a:hover {
 }
 .work-header hr {
   border: 1px solid var(--tertiary-color);
-  width: 100%;
+  width: 95%;
   margin-left: 60px;
 }
 .work-header .work-desc {
@@ -561,7 +561,7 @@ a:hover {
   align-items: center;
   margin: 1rem;
   margin-left: -5px;
-  width: 105%;
+  width: 100%;
 }
 .work-desc p {
   font-family: var(--secondary-font);
