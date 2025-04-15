@@ -3,9 +3,9 @@ export const experienceData = [
         title: 'I Can Help With',
         exp: [
             'SOFTWARE DEVELOPMENT',
-            'FRONT-END DEVELOPMENT',
-            'GRAPHIC DESIGN',
-            'CREATIVE DIRECTION',
+            'FRONT-END DESIGN & DEVELOPMENT',
+            'WEB DESIGN & DEVELOPMENT',
+            'GRAPHIC DESIGN & BRANDING',
             'PHOTOGRAPHY',
             'ILLUSTRATION',
         ],
@@ -13,19 +13,17 @@ export const experienceData = [
     {
         title: 'Who Have I Worked With?',
         exp: [
+            'GOLDENROD AGENCY',
             'UNIVERSITY OF FLORIDA',
             'META PLATFORMS',
             'TWITCH.TV/DINDINTELEVISION',
-            'SOCIETY OF ASIAN SCIENTISTS & ENGINEERS',
             'ASIAN AMERICAN STUDENT UNION',
         ],
     },
     {
-        title: 'Software & Technologies',
+        title: 'Softwares & Technologies',
         exp: [
-            'ADOBE PHOTOSHOP & ILLUSTRATOR',
-            'ADOBE INDESIGN',
-            'ADOBE LIGHTROOM',
+            'ADOBE CREATIVE SUITE',
             'PROCREATE (ON IPAD)',
             'FIGMA',
             'VISUAL STUDIO CODE',
