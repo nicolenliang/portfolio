@@ -177,9 +177,6 @@ a:hover {
   flex-direction: row;
   margin-top: 2rem;
 }
-.hero-container .and {
-  font-style: italic;
-}
 .hero-container .hero-roles p {
   font-size: var(--subtitle-text);
 }
